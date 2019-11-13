@@ -1,0 +1,388 @@
+2019-11-12 19:32:33,880 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 19:32:33,880 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 19:32:40,331 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 19:32:40,474 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 19:32:40,882 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 19:32:41,274 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 19:32:41,274 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 19:32:41,274 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 19:32:41,294 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 19:32:41,351 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 19:32:41,734 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 19:32:53,179 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:33:06,568 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:33:20,323 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:33:34,607 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:33:48,329 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:34:01,953 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:34:15,759 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:34:29,843 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:35:06,967 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 19:35:06,967 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 19:35:11,474 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 19:35:11,590 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 19:35:11,937 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 19:35:12,255 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 19:35:12,255 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 19:35:12,255 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 19:35:12,267 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 19:35:12,311 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 19:35:12,650 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 19:35:20,971 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:35:36,341 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:35:51,163 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:36:07,706 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:36:26,207 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:36:41,597 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:36:55,381 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:37:13,506 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:37:35,907 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:39:00,334 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 19:39:00,335 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 19:39:05,750 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 19:39:05,890 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 19:39:06,304 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 19:39:06,624 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 19:39:06,624 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 19:39:06,624 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 19:39:06,639 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 19:39:06,684 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 19:39:07,031 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 19:39:16,779 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:39:34,571 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:39:54,185 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:40:16,098 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:40:36,659 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:40:57,570 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:41:19,831 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:41:42,927 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:42:04,536 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:42:28,982 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:42:52,239 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:43:17,012 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:43:39,497 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:43:52,477 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 19:43:52,477 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 19:44:00,921 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 19:44:01,108 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 19:44:01,794 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 19:44:02,499 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 19:44:02,499 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 19:44:02,499 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 19:44:02,526 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 19:44:02,596 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 19:44:03,177 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 19:44:16,117 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:44:37,648 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:44:59,989 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:45:24,288 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:45:49,215 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:46:13,317 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:46:34,414 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:46:47,856 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:47:01,710 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:47:15,168 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:47:28,491 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:47:41,715 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:47:54,943 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:48:08,263 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:48:22,432 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:48:37,064 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:48:53,173 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:49:07,049 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:49:21,653 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:49:35,067 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:49:48,379 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:50:01,577 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:50:15,010 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:50:28,239 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:50:41,616 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:50:54,873 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:51:08,093 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:51:21,370 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:51:34,607 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:51:47,993 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:52:01,321 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:52:14,588 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:52:27,876 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:52:41,101 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:52:54,425 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:53:07,655 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:53:21,259 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:53:35,631 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:53:48,970 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:54:02,330 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:54:16,005 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:54:29,286 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:54:42,908 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:54:59,755 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:55:21,426 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:55:39,423 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:55:56,512 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:56:09,577 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:56:24,174 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:56:38,498 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:56:57,144 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:57:10,488 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:57:23,878 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:57:37,035 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:57:50,330 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:58:03,433 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:58:16,563 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:58:29,665 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:58:42,829 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:58:56,232 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:59:09,581 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 19:59:24,660 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:05:45,813 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:05:45,813 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:05:50,427 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:05:50,537 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:05:50,872 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:05:51,201 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:05:51,202 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:05:51,202 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:05:51,216 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:05:51,265 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:05:51,615 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:05:58,974 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:06:12,560 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:06:26,313 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:06:39,862 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:06:53,603 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:07:07,263 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:07:20,831 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:07:34,237 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:07:47,671 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:08:01,162 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:08:14,581 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:08:28,564 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:08:42,505 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:08:56,127 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:09:09,930 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:09:23,288 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:09:36,881 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:09:50,293 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:10:03,691 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:10:19,246 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:10:32,912 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:10:47,076 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:11:05,684 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:11:22,517 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:11:36,670 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:11:55,386 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:12:11,718 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:12:27,365 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:12:40,659 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:12:54,067 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:13:07,325 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:13:20,598 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:13:33,824 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:13:47,207 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:14:01,122 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:14:14,655 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:14:29,877 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:14:45,089 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:14:58,887 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:15:12,267 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:15:25,513 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:15:38,883 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:15:52,193 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:16:05,501 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:16:19,532 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:16:32,879 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:16:49,693 - TCP to Spark Streaming - ERROR - 
+RDD is empty

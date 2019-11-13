@@ -1,0 +1,162 @@
+2019-11-12 18:37:59,264 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 18:37:59,264 - Spark Sentiment Analysis - INFO - 
+Data has been read successfully.
+2019-11-12 18:38:06,023 - Spark Sentiment Analysis - INFO - 
+1599999 has been read.
+2019-11-12 18:38:06,023 - Spark Sentiment Analysis - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 18:38:06,067 - Spark Sentiment Analysis - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 18:38:06,099 - Spark Sentiment Analysis - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 18:38:06,123 - Spark Sentiment Analysis - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 18:38:06,135 - Spark Sentiment Analysis - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 18:38:06,147 - Spark Sentiment Analysis - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 18:38:06,155 - Spark Sentiment Analysis - INFO - 
+Making all the above method into a pipeline
+2019-11-12 18:38:06,159 - Spark Sentiment Analysis - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 18:38:23,796 - Spark Sentiment Analysis - INFO - 
+Fitting the train dataset using LogisticRegression
+2019-11-12 18:38:56,546 - Spark Sentiment Analysis - INFO - 
+Evaluating the trained model
+2019-11-12 18:39:02,082 - Spark Sentiment Analysis - INFO - 
+0.8353073427913121
+2019-11-12 18:39:02,754 - Spark Sentiment Analysis - INFO - 
+Data pre processing has taken 
+2019-11-12 18:39:02,754 - Spark Sentiment Analysis - INFO - 
+--- 68.05813264846802 seconds ---
+2019-11-12 18:41:25,785 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 18:42:24,565 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 19:01:55,817 - Spark Content Classification - INFO - 
+Created a Spark Context
+2019-11-12 19:01:55,817 - Spark Content Classification - INFO - 
+Data has been read successfully.
+2019-11-12 19:02:03,112 - Spark Content Classification - INFO - 
+1599999 has been read.
+2019-11-12 19:02:03,112 - Spark Content Classification - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 19:02:03,152 - Spark Content Classification - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 19:02:03,184 - Spark Content Classification - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 19:02:03,204 - Spark Content Classification - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 19:02:03,212 - Spark Content Classification - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 19:02:03,224 - Spark Content Classification - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 19:02:03,236 - Spark Content Classification - INFO - 
+Making all the above method into a pipeline
+2019-11-12 19:02:03,236 - Spark Content Classification - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 19:02:49,403 - Spark Content Classification - INFO - 
+Created a Spark Context
+2019-11-12 19:02:49,403 - Spark Content Classification - INFO - 
+Data has been read successfully.
+2019-11-12 19:02:56,359 - Spark Content Classification - INFO - 
+1599999 has been read.
+2019-11-12 19:02:56,359 - Spark Content Classification - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 19:02:56,403 - Spark Content Classification - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 19:02:56,427 - Spark Content Classification - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 19:02:56,443 - Spark Content Classification - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 19:02:56,451 - Spark Content Classification - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 19:02:56,471 - Spark Content Classification - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 19:02:56,479 - Spark Content Classification - INFO - 
+Making all the above method into a pipeline
+2019-11-12 19:02:56,479 - Spark Content Classification - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 19:03:48,578 - Spark Content Classification - INFO - 
+Created a Spark Context
+2019-11-12 19:03:48,578 - Spark Content Classification - INFO - 
+Data has been read successfully.
+2019-11-12 19:03:54,959 - Spark Content Classification - INFO - 
+1599999 has been read.
+2019-11-12 19:03:54,959 - Spark Content Classification - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 19:03:55,006 - Spark Content Classification - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 19:03:55,037 - Spark Content Classification - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 19:03:55,053 - Spark Content Classification - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 19:03:55,069 - Spark Content Classification - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 19:03:55,069 - Spark Content Classification - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 19:03:55,084 - Spark Content Classification - INFO - 
+Making all the above method into a pipeline
+2019-11-12 19:03:55,084 - Spark Content Classification - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 19:04:12,927 - Spark Content Classification - INFO - 
+Fitting the train dataset using LogisticRegression
+2019-11-12 19:04:31,411 - Spark Content Classification - INFO - 
+Evaluating the trained model
+2019-11-12 19:04:36,558 - Spark Content Classification - INFO - 
+0.8353073427913116
+2019-11-12 19:05:09,388 - Spark Content Classification - INFO - 
+Created a Spark Context
+2019-11-12 19:05:09,388 - Spark Content Classification - INFO - 
+Data has been read successfully.
+2019-11-12 19:05:16,848 - Spark Content Classification - INFO - 
+1599999 has been read.
+2019-11-12 19:05:16,848 - Spark Content Classification - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 19:05:16,894 - Spark Content Classification - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 19:05:16,926 - Spark Content Classification - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 19:05:16,972 - Spark Content Classification - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 19:05:16,988 - Spark Content Classification - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 19:05:17,004 - Spark Content Classification - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 19:05:17,035 - Spark Content Classification - INFO - 
+Making all the above method into a pipeline
+2019-11-12 19:05:17,035 - Spark Content Classification - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 19:05:50,934 - Spark Content Classification - INFO - 
+Created a Spark Context
+2019-11-12 19:05:50,934 - Spark Content Classification - INFO - 
+Data has been read successfully.
+2019-11-12 19:05:57,660 - Spark Content Classification - INFO - 
+1599999 has been read.
+2019-11-12 19:05:57,660 - Spark Content Classification - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 19:05:57,707 - Spark Content Classification - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 19:05:57,738 - Spark Content Classification - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 19:05:57,754 - Spark Content Classification - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 19:05:57,754 - Spark Content Classification - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 19:05:57,769 - Spark Content Classification - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 19:05:57,785 - Spark Content Classification - INFO - 
+Making all the above method into a pipeline
+2019-11-12 19:05:57,785 - Spark Content Classification - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 19:06:15,152 - Spark Content Classification - INFO - 
+Fitting the train dataset using LogisticRegression
+2019-11-12 19:06:31,856 - Spark Content Classification - INFO - 
+Evaluating the trained model
+2019-11-12 19:06:39,447 - Spark Content Classification - INFO - 
+0.8353073427913114
+2019-11-12 19:06:40,147 - Spark Content Classification - INFO - 
+Data pre processing has taken 
+2019-11-12 19:06:40,147 - Spark Content Classification - INFO - 
+--- 53.86986541748047 seconds ---

@@ -1,0 +1,371 @@
+2019-11-12 18:23:27,440 - Twitter Data Pre Processing - INFO - 
+Twitter Dataset has been loaded successfully
+2019-11-12 18:23:27,440 - Twitter Data Pre Processing - INFO - 
+   sentiment  ...                                               text
+0          0  ...  @switchfoot http://twitpic.com/2y1zl - Awww, t...
+1          0  ...  is upset that he can't update his Facebook by ...
+2          0  ...  @Kenichan I dived many times for the ball. Man...
+3          0  ...    my whole body feels itchy and like its on fire 
+4          0  ...  @nationwideclass no, it's not behaving at all....
+
+[5 rows x 6 columns]
+2019-11-12 18:23:27,472 - Twitter Data Pre Processing - INFO - 
+Sentiment count in the twitter dataset:
+2019-11-12 18:23:27,500 - Twitter Data Pre Processing - INFO - 
+4    800000
+0    800000
+Name: sentiment, dtype: int64
+2019-11-12 18:23:27,672 - Twitter Data Pre Processing - INFO - 
+['tweet_id', 'date', 'flag', 'user'] columns are dropped
+2019-11-12 18:23:27,672 - Twitter Data Pre Processing - INFO - 
+   sentiment                                               text
+0          0  @switchfoot http://twitpic.com/2y1zl - Awww, t...
+1          0  is upset that he can't update his Facebook by ...
+2          0  @Kenichan I dived many times for the ball. Man...
+3          0    my whole body feels itchy and like its on fire 
+4          0  @nationwideclass no, it's not behaving at all....
+2019-11-12 18:23:27,772 - Twitter Data Pre Processing - INFO - 
+sentiment column is modified
+2019-11-12 18:23:27,776 - Twitter Data Pre Processing - INFO - 
+  sentiment                                               text
+0  Negative  @switchfoot http://twitpic.com/2y1zl - Awww, t...
+1  Negative  is upset that he can't update his Facebook by ...
+2  Negative  @Kenichan I dived many times for the ball. Man...
+3  Negative    my whole body feels itchy and like its on fire 
+4  Negative  @nationwideclass no, it's not behaving at all....
+2019-11-12 18:23:27,784 - Twitter Data Pre Processing - INFO - 
+Sentiment count in the twitter dataset:
+2019-11-12 18:23:27,890 - Twitter Data Pre Processing - INFO - 
+Negative    800000
+Positive    800000
+Name: sentiment, dtype: int64
+2019-11-12 18:23:27,894 - Twitter Data Pre Processing - INFO - 
+Cleaning and parsing the tweets...
+2019-11-12 18:23:27,894 - Twitter Data Pre Processing - INFO - 
+Removing '@' mentions and URLS in the tweet
+2019-11-12 18:23:27,894 - Twitter Data Pre Processing - INFO - 
+Decoding text with ‘utf-8-sig’, this BOM will be replaced with unicode unrecognisable special characters, then we can process this as “?”
+2019-11-12 18:23:27,894 - Twitter Data Pre Processing - INFO - 
+Removing hashtags in the text
+2019-11-12 18:23:31,012 - Twitter Data Pre Processing - INFO - 
+Tweets 10000 of 3200000 has been processed
+2019-11-12 18:23:34,079 - Twitter Data Pre Processing - INFO - 
+Tweets 20000 of 3200000 has been processed
+2019-11-12 18:23:37,023 - Twitter Data Pre Processing - INFO - 
+Tweets 30000 of 3200000 has been processed
+2019-11-12 18:23:39,975 - Twitter Data Pre Processing - INFO - 
+Tweets 40000 of 3200000 has been processed
+2019-11-12 18:23:42,906 - Twitter Data Pre Processing - INFO - 
+Tweets 50000 of 3200000 has been processed
+2019-11-12 18:23:45,838 - Twitter Data Pre Processing - INFO - 
+Tweets 60000 of 3200000 has been processed
+2019-11-12 18:23:48,822 - Twitter Data Pre Processing - INFO - 
+Tweets 70000 of 3200000 has been processed
+2019-11-12 18:23:51,898 - Twitter Data Pre Processing - INFO - 
+Tweets 80000 of 3200000 has been processed
+2019-11-12 18:23:54,842 - Twitter Data Pre Processing - INFO - 
+Tweets 90000 of 3200000 has been processed
+2019-11-12 18:23:57,782 - Twitter Data Pre Processing - INFO - 
+Tweets 100000 of 3200000 has been processed
+2019-11-12 18:24:00,722 - Twitter Data Pre Processing - INFO - 
+Tweets 110000 of 3200000 has been processed
+2019-11-12 18:24:03,659 - Twitter Data Pre Processing - INFO - 
+Tweets 120000 of 3200000 has been processed
+2019-11-12 18:24:06,661 - Twitter Data Pre Processing - INFO - 
+Tweets 130000 of 3200000 has been processed
+2019-11-12 18:24:09,632 - Twitter Data Pre Processing - INFO - 
+Tweets 140000 of 3200000 has been processed
+2019-11-12 18:24:12,620 - Twitter Data Pre Processing - INFO - 
+Tweets 150000 of 3200000 has been processed
+2019-11-12 18:24:15,592 - Twitter Data Pre Processing - INFO - 
+Tweets 160000 of 3200000 has been processed
+2019-11-12 18:24:18,560 - Twitter Data Pre Processing - INFO - 
+Tweets 170000 of 3200000 has been processed
+2019-11-12 18:24:21,516 - Twitter Data Pre Processing - INFO - 
+Tweets 180000 of 3200000 has been processed
+2019-11-12 18:24:24,520 - Twitter Data Pre Processing - INFO - 
+Tweets 190000 of 3200000 has been processed
+2019-11-12 18:24:27,477 - Twitter Data Pre Processing - INFO - 
+Tweets 200000 of 3200000 has been processed
+2019-11-12 18:24:30,429 - Twitter Data Pre Processing - INFO - 
+Tweets 210000 of 3200000 has been processed
+2019-11-12 18:24:33,369 - Twitter Data Pre Processing - INFO - 
+Tweets 220000 of 3200000 has been processed
+2019-11-12 18:24:36,309 - Twitter Data Pre Processing - INFO - 
+Tweets 230000 of 3200000 has been processed
+2019-11-12 18:24:39,261 - Twitter Data Pre Processing - INFO - 
+Tweets 240000 of 3200000 has been processed
+2019-11-12 18:24:42,271 - Twitter Data Pre Processing - INFO - 
+Tweets 250000 of 3200000 has been processed
+2019-11-12 18:24:45,247 - Twitter Data Pre Processing - INFO - 
+Tweets 260000 of 3200000 has been processed
+2019-11-12 18:24:48,263 - Twitter Data Pre Processing - INFO - 
+Tweets 270000 of 3200000 has been processed
+2019-11-12 18:24:51,239 - Twitter Data Pre Processing - INFO - 
+Tweets 280000 of 3200000 has been processed
+2019-11-12 18:24:54,223 - Twitter Data Pre Processing - INFO - 
+Tweets 290000 of 3200000 has been processed
+2019-11-12 18:24:57,210 - Twitter Data Pre Processing - INFO - 
+Tweets 300000 of 3200000 has been processed
+2019-11-12 18:25:00,238 - Twitter Data Pre Processing - INFO - 
+Tweets 310000 of 3200000 has been processed
+2019-11-12 18:25:03,242 - Twitter Data Pre Processing - INFO - 
+Tweets 320000 of 3200000 has been processed
+2019-11-12 18:25:06,218 - Twitter Data Pre Processing - INFO - 
+Tweets 330000 of 3200000 has been processed
+2019-11-12 18:25:09,176 - Twitter Data Pre Processing - INFO - 
+Tweets 340000 of 3200000 has been processed
+2019-11-12 18:25:12,159 - Twitter Data Pre Processing - INFO - 
+Tweets 350000 of 3200000 has been processed
+2019-11-12 18:25:15,217 - Twitter Data Pre Processing - INFO - 
+Tweets 360000 of 3200000 has been processed
+2019-11-12 18:25:18,309 - Twitter Data Pre Processing - INFO - 
+Tweets 370000 of 3200000 has been processed
+2019-11-12 18:25:22,465 - Twitter Data Pre Processing - INFO - 
+Tweets 380000 of 3200000 has been processed
+2019-11-12 18:25:27,080 - Twitter Data Pre Processing - INFO - 
+Tweets 390000 of 3200000 has been processed
+2019-11-12 18:25:30,588 - Twitter Data Pre Processing - INFO - 
+Tweets 400000 of 3200000 has been processed
+2019-11-12 18:25:34,580 - Twitter Data Pre Processing - INFO - 
+Tweets 410000 of 3200000 has been processed
+2019-11-12 18:25:37,648 - Twitter Data Pre Processing - INFO - 
+Tweets 420000 of 3200000 has been processed
+2019-11-12 18:25:40,736 - Twitter Data Pre Processing - INFO - 
+Tweets 430000 of 3200000 has been processed
+2019-11-12 18:25:44,361 - Twitter Data Pre Processing - INFO - 
+Tweets 440000 of 3200000 has been processed
+2019-11-12 18:25:47,553 - Twitter Data Pre Processing - INFO - 
+Tweets 450000 of 3200000 has been processed
+2019-11-12 18:25:50,541 - Twitter Data Pre Processing - INFO - 
+Tweets 460000 of 3200000 has been processed
+2019-11-12 18:25:53,649 - Twitter Data Pre Processing - INFO - 
+Tweets 470000 of 3200000 has been processed
+2019-11-12 18:25:56,589 - Twitter Data Pre Processing - INFO - 
+Tweets 480000 of 3200000 has been processed
+2019-11-12 18:25:59,607 - Twitter Data Pre Processing - INFO - 
+Tweets 490000 of 3200000 has been processed
+2019-11-12 18:26:02,691 - Twitter Data Pre Processing - INFO - 
+Tweets 500000 of 3200000 has been processed
+2019-11-12 18:26:06,395 - Twitter Data Pre Processing - INFO - 
+Tweets 510000 of 3200000 has been processed
+2019-11-12 18:26:09,755 - Twitter Data Pre Processing - INFO - 
+Tweets 520000 of 3200000 has been processed
+2019-11-12 18:26:13,267 - Twitter Data Pre Processing - INFO - 
+Tweets 530000 of 3200000 has been processed
+2019-11-12 18:26:16,579 - Twitter Data Pre Processing - INFO - 
+Tweets 540000 of 3200000 has been processed
+2019-11-12 18:26:19,647 - Twitter Data Pre Processing - INFO - 
+Tweets 550000 of 3200000 has been processed
+2019-11-12 18:26:22,595 - Twitter Data Pre Processing - INFO - 
+Tweets 560000 of 3200000 has been processed
+2019-11-12 18:26:25,547 - Twitter Data Pre Processing - INFO - 
+Tweets 570000 of 3200000 has been processed
+2019-11-12 18:26:28,491 - Twitter Data Pre Processing - INFO - 
+Tweets 580000 of 3200000 has been processed
+2019-11-12 18:26:31,455 - Twitter Data Pre Processing - INFO - 
+Tweets 590000 of 3200000 has been processed
+2019-11-12 18:26:34,391 - Twitter Data Pre Processing - INFO - 
+Tweets 600000 of 3200000 has been processed
+2019-11-12 18:26:37,399 - Twitter Data Pre Processing - INFO - 
+Tweets 610000 of 3200000 has been processed
+2019-11-12 18:26:40,371 - Twitter Data Pre Processing - INFO - 
+Tweets 620000 of 3200000 has been processed
+2019-11-12 18:26:43,423 - Twitter Data Pre Processing - INFO - 
+Tweets 630000 of 3200000 has been processed
+2019-11-12 18:26:46,617 - Twitter Data Pre Processing - INFO - 
+Tweets 640000 of 3200000 has been processed
+2019-11-12 18:26:49,639 - Twitter Data Pre Processing - INFO - 
+Tweets 650000 of 3200000 has been processed
+2019-11-12 18:26:52,674 - Twitter Data Pre Processing - INFO - 
+Tweets 660000 of 3200000 has been processed
+2019-11-12 18:26:55,751 - Twitter Data Pre Processing - INFO - 
+Tweets 670000 of 3200000 has been processed
+2019-11-12 18:26:58,719 - Twitter Data Pre Processing - INFO - 
+Tweets 680000 of 3200000 has been processed
+2019-11-12 18:27:01,695 - Twitter Data Pre Processing - INFO - 
+Tweets 690000 of 3200000 has been processed
+2019-11-12 18:27:04,638 - Twitter Data Pre Processing - INFO - 
+Tweets 700000 of 3200000 has been processed
+2019-11-12 18:27:07,560 - Twitter Data Pre Processing - INFO - 
+Tweets 710000 of 3200000 has been processed
+2019-11-12 18:27:10,492 - Twitter Data Pre Processing - INFO - 
+Tweets 720000 of 3200000 has been processed
+2019-11-12 18:27:13,504 - Twitter Data Pre Processing - INFO - 
+Tweets 730000 of 3200000 has been processed
+2019-11-12 18:27:16,482 - Twitter Data Pre Processing - INFO - 
+Tweets 740000 of 3200000 has been processed
+2019-11-12 18:27:19,601 - Twitter Data Pre Processing - INFO - 
+Tweets 750000 of 3200000 has been processed
+2019-11-12 18:27:22,869 - Twitter Data Pre Processing - INFO - 
+Tweets 760000 of 3200000 has been processed
+2019-11-12 18:27:25,945 - Twitter Data Pre Processing - INFO - 
+Tweets 770000 of 3200000 has been processed
+2019-11-12 18:27:28,954 - Twitter Data Pre Processing - INFO - 
+Tweets 780000 of 3200000 has been processed
+2019-11-12 18:27:31,950 - Twitter Data Pre Processing - INFO - 
+Tweets 790000 of 3200000 has been processed
+2019-11-12 18:27:34,926 - Twitter Data Pre Processing - INFO - 
+Tweets 800000 of 3200000 has been processed
+2019-11-12 18:27:37,854 - Twitter Data Pre Processing - INFO - 
+Tweets 810000 of 3200000 has been processed
+2019-11-12 18:27:40,782 - Twitter Data Pre Processing - INFO - 
+Tweets 820000 of 3200000 has been processed
+2019-11-12 18:27:43,710 - Twitter Data Pre Processing - INFO - 
+Tweets 830000 of 3200000 has been processed
+2019-11-12 18:27:46,622 - Twitter Data Pre Processing - INFO - 
+Tweets 840000 of 3200000 has been processed
+2019-11-12 18:27:49,558 - Twitter Data Pre Processing - INFO - 
+Tweets 850000 of 3200000 has been processed
+2019-11-12 18:27:52,574 - Twitter Data Pre Processing - INFO - 
+Tweets 860000 of 3200000 has been processed
+2019-11-12 18:27:55,542 - Twitter Data Pre Processing - INFO - 
+Tweets 870000 of 3200000 has been processed
+2019-11-12 18:27:58,498 - Twitter Data Pre Processing - INFO - 
+Tweets 880000 of 3200000 has been processed
+2019-11-12 18:28:01,502 - Twitter Data Pre Processing - INFO - 
+Tweets 890000 of 3200000 has been processed
+2019-11-12 18:28:04,602 - Twitter Data Pre Processing - INFO - 
+Tweets 900000 of 3200000 has been processed
+2019-11-12 18:28:07,606 - Twitter Data Pre Processing - INFO - 
+Tweets 910000 of 3200000 has been processed
+2019-11-12 18:28:10,602 - Twitter Data Pre Processing - INFO - 
+Tweets 920000 of 3200000 has been processed
+2019-11-12 18:28:13,550 - Twitter Data Pre Processing - INFO - 
+Tweets 930000 of 3200000 has been processed
+2019-11-12 18:28:16,486 - Twitter Data Pre Processing - INFO - 
+Tweets 940000 of 3200000 has been processed
+2019-11-12 18:28:19,454 - Twitter Data Pre Processing - INFO - 
+Tweets 950000 of 3200000 has been processed
+2019-11-12 18:28:22,403 - Twitter Data Pre Processing - INFO - 
+Tweets 960000 of 3200000 has been processed
+2019-11-12 18:28:25,412 - Twitter Data Pre Processing - INFO - 
+Tweets 970000 of 3200000 has been processed
+2019-11-12 18:28:28,460 - Twitter Data Pre Processing - INFO - 
+Tweets 980000 of 3200000 has been processed
+2019-11-12 18:28:31,448 - Twitter Data Pre Processing - INFO - 
+Tweets 990000 of 3200000 has been processed
+2019-11-12 18:28:34,578 - Twitter Data Pre Processing - INFO - 
+Tweets 1000000 of 3200000 has been processed
+2019-11-12 18:28:37,575 - Twitter Data Pre Processing - INFO - 
+Tweets 1010000 of 3200000 has been processed
+2019-11-12 18:28:40,572 - Twitter Data Pre Processing - INFO - 
+Tweets 1020000 of 3200000 has been processed
+2019-11-12 18:28:43,580 - Twitter Data Pre Processing - INFO - 
+Tweets 1030000 of 3200000 has been processed
+2019-11-12 18:28:46,552 - Twitter Data Pre Processing - INFO - 
+Tweets 1040000 of 3200000 has been processed
+2019-11-12 18:29:11,899 - Twitter Data Pre Processing - INFO - 
+Tweets 1050000 of 3200000 has been processed
+2019-11-12 18:29:15,003 - Twitter Data Pre Processing - INFO - 
+Tweets 1060000 of 3200000 has been processed
+2019-11-12 18:29:17,963 - Twitter Data Pre Processing - INFO - 
+Tweets 1070000 of 3200000 has been processed
+2019-11-12 18:29:20,907 - Twitter Data Pre Processing - INFO - 
+Tweets 1080000 of 3200000 has been processed
+2019-11-12 18:29:23,839 - Twitter Data Pre Processing - INFO - 
+Tweets 1090000 of 3200000 has been processed
+2019-11-12 18:29:26,887 - Twitter Data Pre Processing - INFO - 
+Tweets 1100000 of 3200000 has been processed
+2019-11-12 18:29:30,127 - Twitter Data Pre Processing - INFO - 
+Tweets 1110000 of 3200000 has been processed
+2019-11-12 18:29:33,251 - Twitter Data Pre Processing - INFO - 
+Tweets 1120000 of 3200000 has been processed
+2019-11-12 18:29:36,220 - Twitter Data Pre Processing - INFO - 
+Tweets 1130000 of 3200000 has been processed
+2019-11-12 18:29:39,220 - Twitter Data Pre Processing - INFO - 
+Tweets 1140000 of 3200000 has been processed
+2019-11-12 18:29:42,196 - Twitter Data Pre Processing - INFO - 
+Tweets 1150000 of 3200000 has been processed
+2019-11-12 18:29:45,152 - Twitter Data Pre Processing - INFO - 
+Tweets 1160000 of 3200000 has been processed
+2019-11-12 18:29:48,108 - Twitter Data Pre Processing - INFO - 
+Tweets 1170000 of 3200000 has been processed
+2019-11-12 18:29:51,036 - Twitter Data Pre Processing - INFO - 
+Tweets 1180000 of 3200000 has been processed
+2019-11-12 18:29:54,220 - Twitter Data Pre Processing - INFO - 
+Tweets 1190000 of 3200000 has been processed
+2019-11-12 18:29:58,360 - Twitter Data Pre Processing - INFO - 
+Tweets 1200000 of 3200000 has been processed
+2019-11-12 18:30:01,368 - Twitter Data Pre Processing - INFO - 
+Tweets 1210000 of 3200000 has been processed
+2019-11-12 18:30:04,514 - Twitter Data Pre Processing - INFO - 
+Tweets 1220000 of 3200000 has been processed
+2019-11-12 18:30:07,747 - Twitter Data Pre Processing - INFO - 
+Tweets 1230000 of 3200000 has been processed
+2019-11-12 18:30:11,258 - Twitter Data Pre Processing - INFO - 
+Tweets 1240000 of 3200000 has been processed
+2019-11-12 18:30:14,310 - Twitter Data Pre Processing - INFO - 
+Tweets 1250000 of 3200000 has been processed
+2019-11-12 18:30:17,290 - Twitter Data Pre Processing - INFO - 
+Tweets 1260000 of 3200000 has been processed
+2019-11-12 18:30:20,298 - Twitter Data Pre Processing - INFO - 
+Tweets 1270000 of 3200000 has been processed
+2019-11-12 18:30:23,394 - Twitter Data Pre Processing - INFO - 
+Tweets 1280000 of 3200000 has been processed
+2019-11-12 18:30:26,386 - Twitter Data Pre Processing - INFO - 
+Tweets 1290000 of 3200000 has been processed
+2019-11-12 18:30:29,374 - Twitter Data Pre Processing - INFO - 
+Tweets 1300000 of 3200000 has been processed
+2019-11-12 18:30:32,326 - Twitter Data Pre Processing - INFO - 
+Tweets 1310000 of 3200000 has been processed
+2019-11-12 18:30:35,246 - Twitter Data Pre Processing - INFO - 
+Tweets 1320000 of 3200000 has been processed
+2019-11-12 18:30:38,170 - Twitter Data Pre Processing - INFO - 
+Tweets 1330000 of 3200000 has been processed
+2019-11-12 18:30:41,218 - Twitter Data Pre Processing - INFO - 
+Tweets 1340000 of 3200000 has been processed
+2019-11-12 18:30:44,242 - Twitter Data Pre Processing - INFO - 
+Tweets 1350000 of 3200000 has been processed
+2019-11-12 18:30:47,210 - Twitter Data Pre Processing - INFO - 
+Tweets 1360000 of 3200000 has been processed
+2019-11-12 18:30:50,232 - Twitter Data Pre Processing - INFO - 
+Tweets 1370000 of 3200000 has been processed
+2019-11-12 18:30:53,292 - Twitter Data Pre Processing - INFO - 
+Tweets 1380000 of 3200000 has been processed
+2019-11-12 18:30:56,304 - Twitter Data Pre Processing - INFO - 
+Tweets 1390000 of 3200000 has been processed
+2019-11-12 18:30:59,328 - Twitter Data Pre Processing - INFO - 
+Tweets 1400000 of 3200000 has been processed
+2019-11-12 18:31:02,336 - Twitter Data Pre Processing - INFO - 
+Tweets 1410000 of 3200000 has been processed
+2019-11-12 18:31:05,304 - Twitter Data Pre Processing - INFO - 
+Tweets 1420000 of 3200000 has been processed
+2019-11-12 18:31:08,212 - Twitter Data Pre Processing - INFO - 
+Tweets 1430000 of 3200000 has been processed
+2019-11-12 18:31:11,136 - Twitter Data Pre Processing - INFO - 
+Tweets 1440000 of 3200000 has been processed
+2019-11-12 18:31:14,100 - Twitter Data Pre Processing - INFO - 
+Tweets 1450000 of 3200000 has been processed
+2019-11-12 18:31:17,160 - Twitter Data Pre Processing - INFO - 
+Tweets 1460000 of 3200000 has been processed
+2019-11-12 18:31:20,120 - Twitter Data Pre Processing - INFO - 
+Tweets 1470000 of 3200000 has been processed
+2019-11-12 18:31:23,108 - Twitter Data Pre Processing - INFO - 
+Tweets 1480000 of 3200000 has been processed
+2019-11-12 18:31:26,068 - Twitter Data Pre Processing - INFO - 
+Tweets 1490000 of 3200000 has been processed
+2019-11-12 18:31:29,080 - Twitter Data Pre Processing - INFO - 
+Tweets 1500000 of 3200000 has been processed
+2019-11-12 18:31:32,068 - Twitter Data Pre Processing - INFO - 
+Tweets 1510000 of 3200000 has been processed
+2019-11-12 18:31:35,860 - Twitter Data Pre Processing - INFO - 
+Tweets 1520000 of 3200000 has been processed
+2019-11-12 18:31:38,840 - Twitter Data Pre Processing - INFO - 
+Tweets 1530000 of 3200000 has been processed
+2019-11-12 18:31:41,852 - Twitter Data Pre Processing - INFO - 
+Tweets 1540000 of 3200000 has been processed
+2019-11-12 18:31:44,945 - Twitter Data Pre Processing - INFO - 
+Tweets 1550000 of 3200000 has been processed
+2019-11-12 18:31:47,984 - Twitter Data Pre Processing - INFO - 
+Tweets 1560000 of 3200000 has been processed
+2019-11-12 18:31:51,509 - Twitter Data Pre Processing - INFO - 
+Tweets 1570000 of 3200000 has been processed
+2019-11-12 18:31:54,851 - Twitter Data Pre Processing - INFO - 
+Tweets 1580000 of 3200000 has been processed
+2019-11-12 18:31:58,102 - Twitter Data Pre Processing - INFO - 
+Tweets 1590000 of 3200000 has been processed
+2019-11-12 18:32:06,656 - Twitter Data Pre Processing - INFO - 
+Data pre processing has taken 
+2019-11-12 18:32:06,656 - Twitter Data Pre Processing - INFO - 
+--- 523.5757184028625 seconds ---
