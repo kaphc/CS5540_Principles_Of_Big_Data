@@ -32,3 +32,299 @@ Waiting for TCP connection...
 Connected... Starting getting tweets.
 2019-11-12 20:08:25,735 - Twitter Streaming to TCP - ERROR - 
 Expecting value: line 1 column 1 (char 0)
+2019-11-12 20:26:02,681 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:26:02,685 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:27:32,823 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 20:30:48,299 - Twitter Streaming to TCP - ERROR - 
+Expecting value: line 1 column 1 (char 0)
+2019-11-12 20:40:13,755 - Twitter Streaming to TCP - ERROR - 
+Expecting value: line 1 column 1 (char 0)
+2019-11-12 20:43:10,387 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:43:10,387 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:43:10,387 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:43:33,296 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:43:33,296 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:43:33,296 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:43:52,985 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 20:45:11,320 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:45:11,321 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:45:11,322 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:45:12,088 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 20:46:22,170 - Twitter Streaming to TCP - ERROR - 
+'text'
+2019-11-12 20:50:46,109 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:50:46,110 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:50:46,111 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:50:51,055 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 20:57:33,112 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:57:33,112 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:57:33,113 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:57:37,461 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 20:58:23,936 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 20:58:23,937 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 20:58:23,937 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 20:59:01,414 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:00:38,337 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:00:38,337 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:00:38,337 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:00:47,691 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:02:15,019 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:02:15,019 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:02:15,019 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:02:19,322 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:10:41,576 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:10:41,576 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:10:41,576 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:10:48,048 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:11:58,761 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:11:58,761 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:11:58,762 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:13:01,440 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:13:22,959 - Twitter Streaming to TCP - ERROR - 
+list indices must be integers or slices, not str
+2019-11-12 21:13:30,355 - Twitter Streaming to TCP - ERROR - 
+list indices must be integers or slices, not str
+2019-11-12 21:14:50,830 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:14:50,830 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:14:50,830 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:14:54,907 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:17:11,926 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:17:11,926 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:17:11,926 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:17:15,170 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:17:37,971 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:18:32,618 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:18:32,619 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:18:32,620 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:18:33,746 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:18:59,028 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:06,714 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:13,900 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:22,132 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:29,578 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:37,017 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:45,197 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:19:55,397 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:06,710 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:17,070 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:25,685 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:34,707 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:44,720 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:20:53,685 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:03,734 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:14,424 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:22,651 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:30,377 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:37,946 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:45,295 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:21:53,335 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:22:01,115 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:22:09,517 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:22:17,598 - Twitter Streaming to TCP - ERROR - 
+list index out of range
+2019-11-12 21:24:00,357 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:24:00,357 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:24:00,361 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:24:07,791 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:27:42,510 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:27:42,510 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:27:42,510 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:27:46,126 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:28:07,849 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'sentiment'
+2019-11-12 21:28:16,285 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'sentiment'
+2019-11-12 21:28:33,064 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:28:33,064 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:28:33,064 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:28:36,459 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:28:57,922 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:05,631 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:13,103 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:20,430 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:27,682 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:35,090 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:29:51,100 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:29:51,100 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:29:51,100 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:29:54,448 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:30:15,883 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:23,249 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:30,454 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:37,347 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:44,549 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:51,193 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:30:58,295 - Twitter Streaming to TCP - ERROR - 
+'list' object has no attribute 'prediction'
+2019-11-12 21:31:18,463 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:31:18,463 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:31:18,463 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:31:21,335 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:36:17,528 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:36:17,528 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:36:17,528 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:36:24,967 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:37:39,480 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:37:39,480 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:37:39,480 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:37:42,872 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:38:03,939 - Twitter Streaming to TCP - ERROR - 
+can only concatenate str (not "int") to str
+2019-11-12 21:38:36,547 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:38:36,547 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:38:36,548 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:38:37,850 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:38:59,402 - Twitter Streaming to TCP - ERROR - 
+can only concatenate str (not "int") to str
+2019-11-12 21:39:07,044 - Twitter Streaming to TCP - ERROR - 
+can only concatenate str (not "int") to str
+2019-11-12 21:39:41,439 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:39:41,439 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:39:41,439 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:39:44,723 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 21:40:05,817 - Twitter Streaming to TCP - ERROR - 
+can only concatenate str (not "dict") to str
+2019-11-12 21:40:13,335 - Twitter Streaming to TCP - ERROR - 
+can only concatenate str (not "dict") to str
+2019-11-12 21:41:18,713 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 21:41:18,713 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 21:41:18,713 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 21:41:34,752 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-12 23:23:48,652 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 23:23:48,652 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 23:23:48,652 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 23:23:54,518 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.

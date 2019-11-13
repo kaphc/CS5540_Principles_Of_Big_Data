@@ -160,3 +160,51 @@ Evaluating the trained model
 Data pre processing has taken 
 2019-11-12 19:06:40,147 - Spark Content Classification - INFO - 
 --- 53.86986541748047 seconds ---
+2019-11-12 20:53:09,703 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 20:53:37,149 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 20:55:03,883 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 20:55:03,883 - Spark Sentiment Analysis - INFO - 
+Data has been read successfully.
+2019-11-12 20:55:11,010 - Spark Sentiment Analysis - INFO - 
+1599999 has been read.
+2019-11-12 20:55:11,010 - Spark Sentiment Analysis - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 20:55:11,072 - Spark Sentiment Analysis - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 20:55:11,088 - Spark Sentiment Analysis - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 20:55:11,104 - Spark Sentiment Analysis - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 20:55:11,119 - Spark Sentiment Analysis - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 20:55:11,135 - Spark Sentiment Analysis - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 20:55:11,151 - Spark Sentiment Analysis - INFO - 
+Making all the above method into a pipeline
+2019-11-12 20:55:11,151 - Spark Sentiment Analysis - INFO - 
+Fit train, test and validation set on the created pipeline
+2019-11-12 20:55:47,678 - Spark Sentiment Analysis - INFO - 
+Created a Spark Context
+2019-11-12 20:55:47,678 - Spark Sentiment Analysis - INFO - 
+Data has been read successfully.
+2019-11-12 20:55:55,106 - Spark Sentiment Analysis - INFO - 
+1599999 has been read.
+2019-11-12 20:55:55,106 - Spark Sentiment Analysis - INFO - 
+NA's has been removed from the dataset.
+2019-11-12 20:55:55,153 - Spark Sentiment Analysis - INFO - 
+Dataframe has been split into 0.98,0.01,0.01 size for train, val and test
+2019-11-12 20:55:55,168 - Spark Sentiment Analysis - INFO - 
+Tokenizing the feature column and output is written into words column
+2019-11-12 20:55:55,184 - Spark Sentiment Analysis - INFO - 
+Hashing the words column and output is written into tf column
+2019-11-12 20:55:55,200 - Spark Sentiment Analysis - INFO - 
+IDF the tf column and output is written into  features column
+2019-11-12 20:55:55,200 - Spark Sentiment Analysis - INFO - 
+Labeling the target column and output is written into label column
+2019-11-12 20:55:55,215 - Spark Sentiment Analysis - INFO - 
+Making all the above method into a pipeline
+2019-11-12 20:55:55,215 - Spark Sentiment Analysis - INFO - 
+Fit train, test and validation set on the created pipeline

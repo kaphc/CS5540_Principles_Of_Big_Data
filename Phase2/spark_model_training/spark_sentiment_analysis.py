@@ -4,7 +4,7 @@ import pyspark as ps
 import time
 
 from pyspark.ml import Pipeline, PipelineModel
-from pyspark.ml.classification import LogisticRegression
+from pyspark.ml.classification import LogisticRegression, LogisticRegressionModel
 from pyspark.ml.evaluation import BinaryClassificationEvaluator
 from pyspark.ml.feature import HashingTF, IDF, Tokenizer, StringIndexer
 from pyspark.sql import SQLContext
@@ -110,7 +110,7 @@ if __name__ == '__main__':
     logger.info("Data pre processing has taken ")
     logger.info("--- %s seconds ---" % (time.time() - start_time))
 
-    # model = PipelineModel.load("ss")
+    # model = PipelineModel.load(Constants.content_tf_idf_model_path)
     # v = sql_context.createDataFrame([
     #     ("a", "tayalejandro noooo it is for flu and cold apparently we catch colds from the nasty airplane air and not washing hands", 34),
     #     ("h", "trying to clean the anti virus rogue software off of client computer s using malwarebytes wish me luck", 34),
@@ -123,7 +123,6 @@ if __name__ == '__main__':
     # ], ["id", "text", "age"])
     # v = model.transform(v)
     # print(v.show())
-    # # v.toPandas().to_csv('mycsv.csv')
-    # model2 = LogisticRegressionModel.load("adf")
+    # model2 = LogisticRegressionModel.load(Constants.content_classification_model_path)
     # v = model2.transform(v)
     # print(v.show())

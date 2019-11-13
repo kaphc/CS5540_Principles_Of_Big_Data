@@ -386,3 +386,1574 @@ RDD is empty
 RDD is empty
 2019-11-12 20:16:49,693 - TCP to Spark Streaming - ERROR - 
 RDD is empty
+2019-11-12 20:27:26,095 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:27:26,096 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:27:31,019 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:27:31,144 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:27:31,546 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:27:31,935 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:27:31,935 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:27:31,935 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:27:31,950 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:27:31,991 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:27:32,345 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:43:46,853 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:43:46,853 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:43:51,414 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:43:51,505 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:43:51,817 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:43:52,158 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:43:52,158 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:43:52,158 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:43:52,168 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:43:52,209 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:43:52,571 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:44:01,541 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:44:16,181 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:44:29,942 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:44:44,187 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:45:00,590 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:45:00,590 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:45:06,643 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:45:06,784 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:45:07,346 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:45:07,831 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:45:07,831 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:45:07,831 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:45:07,862 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:45:07,909 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:45:08,394 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:45:19,725 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:45:41,724 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 10.0 failed 1 times, most recent failure: Lost task 0.0 in stage 10.0 (TID 6, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\worker.py", line 362, in main
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\serializers.py", line 715, in read_int
+    length = stream.read(4)
+  File "C:\Users\kaphc\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1124)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1130)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\worker.py", line 362, in main
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\serializers.py", line 715, in read_int
+    length = stream.read(4)
+  File "C:\Users\kaphc\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1124)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1130)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:46:05,437 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 18.0 failed 1 times, most recent failure: Lost task 0.0 in stage 18.0 (TID 10, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\worker.py", line 362, in main
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\serializers.py", line 715, in read_int
+    length = stream.read(4)
+  File "C:\Users\kaphc\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1124)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1130)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\worker.py", line 362, in main
+  File "C:\Spark\spark-2.4.4-bin-hadoop2.7\python\lib\pyspark.zip\pyspark\serializers.py", line 715, in read_int
+    length = stream.read(4)
+  File "C:\Users\kaphc\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1124)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1130)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:46:19,936 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 28.0 failed 1 times, most recent failure: Lost task 1.0 in stage 28.0 (TID 15, localhost, executor driver): org.apache.spark.SparkException: Block rdd_21_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_21_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:46:40,353 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 40.0 failed 1 times, most recent failure: Lost task 1.0 in stage 40.0 (TID 19, localhost, executor driver): org.apache.spark.SparkException: Block rdd_35_1 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2114)
+	at org.apache.spark.rdd.ReliableCheckpointRDD$.writeRDDToCheckpointDirectory(ReliableCheckpointRDD.scala:140)
+	at org.apache.spark.rdd.ReliableRDDCheckpointData.doCheckpoint(ReliableRDDCheckpointData.scala:58)
+	at org.apache.spark.rdd.RDDCheckpointData.checkpoint(RDDCheckpointData.scala:75)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply$mcV$sp(RDD.scala:1766)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDD.doCheckpoint(RDD.scala:1755)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1$$anonfun$apply$mcV$sp$2.apply(RDD.scala:1768)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1$$anonfun$apply$mcV$sp$2.apply(RDD.scala:1768)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply$mcV$sp(RDD.scala:1768)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDD.doCheckpoint(RDD.scala:1755)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2063)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_35_1 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:47:03,875 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 54.0 failed 1 times, most recent failure: Lost task 1.0 in stage 54.0 (TID 24, localhost, executor driver): org.apache.spark.SparkException: Block rdd_48_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_48_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:47:21,735 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 70.0 failed 1 times, most recent failure: Lost task 2.0 in stage 70.0 (TID 29, localhost, executor driver): org.apache.spark.SparkException: Block rdd_61_3 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_61_3 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:47:43,903 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 88.0 failed 1 times, most recent failure: Lost task 1.0 in stage 88.0 (TID 32, localhost, executor driver): org.apache.spark.SparkException: Block rdd_75_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_75_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:48:03,126 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 108.0 failed 1 times, most recent failure: Lost task 2.0 in stage 108.0 (TID 37, localhost, executor driver): org.apache.spark.SparkException: Block rdd_88_3 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_88_3 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:48:23,685 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 130.0 failed 1 times, most recent failure: Lost task 2.0 in stage 130.0 (TID 41, localhost, executor driver): org.apache.spark.SparkException: Block rdd_101_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2114)
+	at org.apache.spark.rdd.ReliableCheckpointRDD$.writeRDDToCheckpointDirectory(ReliableCheckpointRDD.scala:140)
+	at org.apache.spark.rdd.ReliableRDDCheckpointData.doCheckpoint(ReliableRDDCheckpointData.scala:58)
+	at org.apache.spark.rdd.RDDCheckpointData.checkpoint(RDDCheckpointData.scala:75)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply$mcV$sp(RDD.scala:1766)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDD.doCheckpoint(RDD.scala:1755)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1$$anonfun$apply$mcV$sp$2.apply(RDD.scala:1768)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1$$anonfun$apply$mcV$sp$2.apply(RDD.scala:1768)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply$mcV$sp(RDD.scala:1768)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDD$$anonfun$doCheckpoint$1.apply(RDD.scala:1756)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDD.doCheckpoint(RDD.scala:1755)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2063)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_101_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:48:43,094 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 154.0 failed 1 times, most recent failure: Lost task 0.0 in stage 154.0 (TID 44, localhost, executor driver): org.apache.spark.SparkException: Block rdd_115_1 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_115_1 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:49:13,084 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling o12391.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 180.0 failed 1 times, most recent failure: Lost task 2.0 in stage 180.0 (TID 51, localhost, executor driver): org.apache.spark.SparkException: Block rdd_128_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:365)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:38)
+	at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$collectFromPlan(Dataset.scala:3389)
+	at org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:2550)
+	at org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:2550)
+	at org.apache.spark.sql.Dataset$$anonfun$52.apply(Dataset.scala:3370)
+	at org.apache.spark.sql.execution.SQLExecution$$anonfun$withNewExecutionId$1.apply(SQLExecution.scala:78)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:73)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:3369)
+	at org.apache.spark.sql.Dataset.head(Dataset.scala:2550)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2764)
+	at org.apache.spark.sql.Dataset.getRows(Dataset.scala:254)
+	at org.apache.spark.sql.Dataset.showString(Dataset.scala:291)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Block rdd_128_2 was not found even though it's read-locked
+	at org.apache.spark.storage.BlockManager.handleLocalReadFailure(BlockManager.scala:575)
+	at org.apache.spark.storage.BlockManager.getLocalValues(BlockManager.scala:625)
+	at org.apache.spark.storage.BlockManager.get(BlockManager.scala:815)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:875)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:100)
+	at org.apache.spark.rdd.PartitionerAwareUnionRDD$$anonfun$compute$1.apply(PartitionerAwareUnionRDD.scala:99)
+	at scala.collection.Iterator$$anon$12.nextCur(Iterator.scala:435)
+	at scala.collection.Iterator$$anon$12.hasNext(Iterator.scala:441)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:224)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:561)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:346)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1945)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:195)
+
+2019-11-12 20:50:43,695 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:50:43,695 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:50:49,454 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:50:49,579 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:50:49,954 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:50:50,298 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:50:50,298 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:50:50,298 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:50:50,313 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:50:50,360 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:50:50,691 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:51:08,691 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:51:27,873 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:51:46,024 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:57:29,939 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:57:29,939 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:57:35,946 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:57:36,040 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:57:36,352 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:57:36,696 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:57:36,696 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:57:36,696 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:57:36,712 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:57:36,743 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:57:37,087 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:57:50,942 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:58:05,081 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:58:55,324 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 20:58:55,324 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 20:58:59,827 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 20:58:59,952 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 20:59:00,312 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 20:59:00,624 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 20:59:00,624 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 20:59:00,624 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 20:59:00,624 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 20:59:00,671 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 20:59:01,009 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 20:59:12,048 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:59:27,070 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:59:41,246 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 20:59:55,517 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:00:11,286 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:00:26,587 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:00:41,712 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:00:41,712 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:00:46,058 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:00:46,168 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:00:46,480 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:00:46,855 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:00:46,855 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:00:46,855 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:00:46,871 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:00:46,918 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:00:47,258 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:00:57,866 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:01:17,247 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:02:11,146 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:02:11,146 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:02:17,711 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:02:17,805 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:02:18,149 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:02:18,508 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:02:18,508 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:02:18,508 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:02:18,524 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:02:18,555 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:02:18,937 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:02:30,063 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:02:49,873 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:03:07,360 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:03:24,466 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:03:42,554 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:04:00,327 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:04:17,324 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:10:41,373 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:10:41,373 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:10:46,507 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:10:46,601 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:10:46,897 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:10:47,225 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:10:47,225 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:10:47,225 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:10:47,241 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:10:47,288 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:10:47,654 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:10:58,440 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:11:17,884 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:12:55,213 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:12:55,213 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:12:59,886 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:13:00,011 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:13:00,355 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:13:00,698 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:13:00,698 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:13:00,698 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:13:00,714 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:13:00,745 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:13:01,047 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:13:11,984 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:13:31,376 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:13:34,372 - TCP to Spark Streaming - ERROR - 
+An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob
+2019-11-12 21:14:46,983 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:14:46,983 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:14:53,329 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:14:53,423 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:14:53,779 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:14:54,155 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:14:54,155 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:14:54,155 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:14:54,171 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:14:54,210 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:14:54,517 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:15:06,088 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:15:24,721 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:15:42,387 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:16:00,639 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:16:22,345 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:16:41,931 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:17:06,774 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:17:06,790 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:17:13,428 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:17:13,563 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:17:13,943 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:17:14,326 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:17:14,327 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:17:14,327 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:17:14,346 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:17:14,393 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:17:14,742 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:17:26,727 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:18:03,310 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:18:03,310 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:18:14,555 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:18:15,076 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:18:16,663 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:18:17,788 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:18:17,788 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:18:17,788 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:18:17,835 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:18:17,980 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:18:19,072 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:18:38,782 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:19:01,469 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:19:19,800 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:19:38,133 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:20:02,427 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:20:26,039 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:20:49,193 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:21:13,657 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:21:33,252 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:21:52,013 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:22:11,783 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:24:00,713 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:24:00,713 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:24:05,960 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:24:06,080 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:24:06,524 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:24:06,912 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:24:06,912 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:24:06,912 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:24:06,928 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:24:06,984 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:24:07,347 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:24:19,978 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:24:43,394 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:25:03,682 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:27:37,936 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:27:37,936 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:27:44,416 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:27:44,509 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:27:44,790 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:27:45,181 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:27:45,181 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:27:45,181 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:27:45,228 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:27:45,275 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:27:45,706 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:27:55,880 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:28:16,190 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:28:28,184 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:28:28,184 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:28:34,720 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:28:34,814 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:28:35,126 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:28:35,517 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:28:35,517 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:28:35,517 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:28:35,532 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:28:35,579 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:28:35,895 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:28:45,748 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:29:05,153 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:29:23,232 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:29:46,290 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:29:46,290 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:29:52,740 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:29:52,849 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:29:53,193 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:29:53,521 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:29:53,521 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:29:53,521 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:29:53,536 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:29:53,568 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:29:53,889 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:30:03,968 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:30:23,236 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:30:40,825 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:30:57,322 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:31:13,224 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:31:13,224 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:31:19,846 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:31:19,956 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:31:20,268 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:31:20,581 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:31:20,581 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:31:20,581 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:31:20,596 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:31:20,627 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:31:20,951 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:31:31,799 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:31:51,480 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:36:18,793 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:36:18,793 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:36:23,379 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:36:23,488 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:36:23,800 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:36:24,113 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:36:24,113 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:36:24,113 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:36:24,113 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:36:24,160 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:36:24,462 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:37:34,252 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:37:34,252 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:37:41,276 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:37:41,386 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:37:41,682 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:37:42,011 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:37:42,011 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:37:42,011 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:37:42,026 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:37:42,073 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:37:42,495 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:37:54,715 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:38:12,881 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:38:27,492 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:38:46,279 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:39:05,634 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:39:37,112 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:39:37,112 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:39:43,220 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:39:43,345 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:39:43,688 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:39:44,016 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:39:44,016 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:39:44,016 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:39:44,032 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:39:44,063 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:39:44,351 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:39:56,596 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:40:15,100 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:41:28,469 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 21:41:28,469 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 21:41:33,137 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 21:41:33,247 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 21:41:33,606 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 21:41:33,950 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 21:41:33,950 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 21:41:33,950 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 21:41:33,962 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 21:41:34,006 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 21:41:34,329 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 21:41:47,234 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 21:42:06,319 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 23:23:48,308 - TCP to Spark Streaming - INFO - 
+create spark configuration
+2019-11-12 23:23:48,308 - TCP to Spark Streaming - INFO - 
+Creating a spark context with the above configuration
+2019-11-12 23:23:53,005 - TCP to Spark Streaming - INFO - 
+Creating the Streaming Context from the above spark context with interval size 2 seconds
+2019-11-12 23:23:53,083 - TCP to Spark Streaming - INFO - 
+Setting a checkpoint to allow RDD recovery
+2019-11-12 23:23:53,380 - TCP to Spark Streaming - INFO - 
+reading data from the port
+2019-11-12 23:23:53,739 - TCP to Spark Streaming - INFO - 
+Splitting each tweet into words
+2019-11-12 23:23:53,739 - TCP to Spark Streaming - INFO - 
+Filtering the words to get only hashtags, then map each hashtag to be a pair of (hashtag,1)
+2019-11-12 23:23:53,739 - TCP to Spark Streaming - INFO - 
+adding the count of each hashtag to its last count
+2019-11-12 23:23:53,755 - TCP to Spark Streaming - INFO - 
+Processing for each RDD generated in each interval
+2019-11-12 23:23:53,802 - TCP to Spark Streaming - INFO - 
+Starting the streaming computation
+2019-11-12 23:23:54,114 - TCP to Spark Streaming - INFO - 
+Waiting for the streaming to finish
+2019-11-12 23:24:07,309 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 23:24:25,853 - TCP to Spark Streaming - ERROR - 
+RDD is empty
+2019-11-12 23:24:42,915 - TCP to Spark Streaming - ERROR - 
+RDD is empty
