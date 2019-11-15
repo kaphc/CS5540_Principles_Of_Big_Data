@@ -71,6 +71,7 @@ max_iter = 1
 
 # twitter streaming -> tcp
 tcp_streaming_log_file_name = "../log_files/tcp_streaming.log"
+stop_words_path = "../data/stopwords.txt"
 
 TCP_IP = "localhost"
 port_number = 9009

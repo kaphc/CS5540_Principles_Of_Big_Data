@@ -208,3 +208,151 @@ Labeling the target column and output is written into label column
 Making all the above method into a pipeline
 2019-11-12 20:55:55,215 - Spark Sentiment Analysis - INFO - 
 Fit train, test and validation set on the created pipeline
+2019-11-14 17:06:38,925 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:06:38,927 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:09:26,017 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:09:26,017 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:09:54,393 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:09:54,393 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:10:31,517 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:10:31,517 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:11:08,378 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:11:08,378 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:11:58,316 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:11:58,317 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:12:08,659 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:12:08,659 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:13:19,491 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:13:19,491 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:13:19,492 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:14:56,880 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:14:56,881 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:14:56,881 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:20:15,881 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:20:15,881 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:20:15,882 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:23:13,281 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:23:13,281 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:23:13,296 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:24:04,299 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:24:04,299 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:24:04,299 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:24:53,483 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:24:53,483 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:24:53,483 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:27:50,542 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:27:50,542 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:27:50,542 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:31:47,475 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:31:47,476 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:31:47,476 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:34:33,096 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:34:33,097 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:34:33,097 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:35:12,864 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:35:12,864 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:35:12,864 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:35:48,982 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:35:48,982 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:35:48,983 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:41:22,031 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:41:22,031 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:41:22,032 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:48:14,048 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:48:14,048 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:48:14,049 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:50:02,326 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:50:02,326 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:50:02,326 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:51:43,706 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:51:43,706 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:51:43,706 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 17:57:13,717 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 17:57:13,717 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 17:57:13,718 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 18:01:52,606 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 18:01:52,606 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 18:01:52,607 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 18:06:35,067 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 18:06:35,067 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 18:06:35,068 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 18:08:20,092 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 18:08:20,092 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 18:08:20,092 - Twitter Streaming to TCP - INFO - 
+Preparing the track list
+2019-11-14 18:10:32,383 - Twitter Streaming to TCP - INFO - 
+Listening on port: 9009
+2019-11-14 18:10:32,383 - Twitter Streaming to TCP - INFO - 
+Twitter Authentication has been setup successfully
+2019-11-14 18:10:32,383 - Twitter Streaming to TCP - INFO - 
+Preparing the track list

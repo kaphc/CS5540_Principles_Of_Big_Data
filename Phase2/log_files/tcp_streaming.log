@@ -328,3 +328,61 @@ Twitter authentication has been setup successfully
 Waiting for TCP connection...
 2019-11-12 23:23:54,518 - Twitter Streaming to TCP - INFO - 
 Connected... Starting getting tweets.
+2019-11-12 23:48:07,701 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-12 23:48:07,701 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-12 23:48:07,701 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-12 23:48:15,791 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-14 12:21:33,384 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-14 12:21:33,384 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-14 12:21:33,384 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-14 12:22:13,717 - Twitter Streaming to TCP - INFO - 
+Created a Spark Context
+2019-11-14 12:22:13,717 - Twitter Streaming to TCP - INFO - 
+Twitter authentication has been setup successfully
+2019-11-14 12:22:13,717 - Twitter Streaming to TCP - INFO - 
+Waiting for TCP connection...
+2019-11-14 12:23:22,773 - Twitter Streaming to TCP - INFO - 
+Connected... Starting getting tweets.
+2019-11-14 12:23:48,486 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:23:54,063 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:23:59,796 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:05,670 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:11,415 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:18,053 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:26,247 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:33,153 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:39,616 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:45,718 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:51,338 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:24:56,728 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:02,775 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:08,860 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:14,695 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:20,701 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:26,469 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
+2019-11-14 12:25:33,697 - Twitter Streaming to TCP - ERROR - 
+[WinError 10053] An established connection was aborted by the software in your host machine
