@@ -46,10 +46,16 @@ class TweetsListener(StreamListener):
 
             msg = json.loads(data)
             user = json.loads(json.dumps(msg['user']))
+
+            place_type = " "
             if msg['place'] is not None:
-                if msg['place']['bounding_box'] is not None:
-                    bounding_box_str = msg['place']['bounding_box']['coordinates']
-                    print(bounding_box_str)
+                if msg['place']['country_code'] is not None:
+                    place_type = msg['place']['country_code']
+                    print(place_type)
+
+            lat_long = " "
+            if msg['place'] is not None:
+                print(msg['place'])
 
             hashtags = " "
             if msg['entities'] is not None:
@@ -57,16 +63,23 @@ class TweetsListener(StreamListener):
                     for hashtag in msg['entities']['hashtags']:
                         hashtags = hashtags + " " + hashtag['text']
 
-            print(hashtags)
+            timeZone = " "
+            if msg['user'] is not None:
+                if msg['user']['time_zone'] is not None:
+                    timeZone = msg['user']['time_zone']
 
             # location = json.loads(
             #     str(msg['place']['bounding_box']) if msg['place']['bounding_box'] is not None else '{}')
             s_data = msg['id_str'] + ' ~@ ' + msg['text'].replace('\n', '') + ' ~@ ' + \
                      (str(user['id']) if user['id'] is not None else 'None') + ' ~@ ' + \
-                     (str(msg['place']) if msg['place'] is not None else 'None') + '~@ ' + \
+                     str(random.choice(['US', 'IND', 'BR', 'UK', 'CAN', 'AUS'])) + '~@ ' + \
                      str(random.choice([0, 1])) + ' ~@ ' + \
                      str(random.choice(["Business & Finance", "Criminal Justice", "Health Care",
-                                        "Policy and Politics", "Science & Health"])) + ' ~@ ' + str(hashtags)
+                                        "Policy and Politics", "Science & Health"])) + ' ~@ ' + \
+                     str(hashtags) + ' ~@ ' + \
+                     str(timeZone) + ' ~@ ' + \
+                     str(random.choice(['cancer', 'flu', 'aids', 'cholera', 'diabetes']))
+
             print(s_data.encode('utf-8'))
 
             c.send(s_data.encode('utf-8'))
