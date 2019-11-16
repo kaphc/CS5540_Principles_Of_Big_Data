@@ -46,12 +46,27 @@ class TweetsListener(StreamListener):
 
             msg = json.loads(data)
             user = json.loads(json.dumps(msg['user']))
-            s_data = msg['id_str'] + ' ~@ ' + msg['text'].replace('\n', '') + ' ~@ ' \
-                    + (str(user['id']) if user['id'] is not None else 'None') + ' ~@ ' \
-                    + (str(msg['place']) if msg['place'] is not None else 'None') + ' ~@ ' \
-                    + str(random.choice([0.0, 1.0])) + ' ~@ ' \
-                    + str(random.choice(["Business & Finance", "Criminal Justice", "Health Care",
-                                         "Policy and Politics", "Science & Health"]))
+            if msg['place'] is not None:
+                if msg['place']['bounding_box'] is not None:
+                    bounding_box_str = msg['place']['bounding_box']['coordinates']
+                    print(bounding_box_str)
+
+            hashtags = " "
+            if msg['entities'] is not None:
+                if msg['entities']['hashtags'] is not None:
+                    for hashtag in msg['entities']['hashtags']:
+                        hashtags = hashtags + " " + hashtag['text']
+
+            print(hashtags)
+
+            # location = json.loads(
+            #     str(msg['place']['bounding_box']) if msg['place']['bounding_box'] is not None else '{}')
+            s_data = msg['id_str'] + ' ~@ ' + msg['text'].replace('\n', '') + ' ~@ ' + \
+                     (str(user['id']) if user['id'] is not None else 'None') + ' ~@ ' + \
+                     (str(msg['place']) if msg['place'] is not None else 'None') + '~@ ' + \
+                     str(random.choice([0, 1])) + ' ~@ ' + \
+                     str(random.choice(["Business & Finance", "Criminal Justice", "Health Care",
+                                        "Policy and Politics", "Science & Health"])) + ' ~@ ' + str(hashtags)
             print(s_data.encode('utf-8'))
 
             c.send(s_data.encode('utf-8'))
