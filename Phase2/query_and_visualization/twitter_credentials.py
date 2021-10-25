@@ -1,4 +1,4 @@
-consumerKey = '69SNKxw0qbGY6PPZBcRVLZVpP'
-consumerSecret = 'sIUppqVb3mDXDdbnXGst50fL2DvmtcyjakxbJhA7D5vQpt3PNr'
-accessToken = '1039586617445572608-3R3OHxxrH5JY8e9IITG3w3pwkZpGFc'
-accessTokenSecret = 'KrqdNUh5tddGq1SW1SUIeQMBelQcyLzQVOaOzAPfNZG84'
+consumerKey = 'XXXXX'
+consumerSecret = 'XXXXX'
+accessToken = 'XXXXX'
+accessTokenSecret = 'XXXXX'
