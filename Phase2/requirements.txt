@@ -92,7 +92,7 @@ PySocks==1.7.1
 pyspark==2.4.4
 python-dateutil==2.8.0
 python-firebase==1.2
-python-jwt==2.0.1
+python-jwt==3.3.4
 pytz==2019.3
 pywin32==225
 pywinpty==0.5.5
